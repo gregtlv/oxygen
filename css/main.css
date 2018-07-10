@@ -1,5 +1,27 @@
 body {
-  background: blue;
+  /*background: blue;*/
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/*Variables*/
+/*Container*/
+.container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+/*Header*/
+.header__top {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=css/main.css.map */
